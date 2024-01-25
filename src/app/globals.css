@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ body{
+    overflow-x: hidden;
+} 
+
+.work {
+    font-size: 230px !important;
+    width: 200px !important;
+    height: 230 px !important;
+    line-height: 280px !important;
+
+}
+
+.yellow-square h1::before {
+    content: '';
+    position: absolute;
+    background-color: #ffe138;
+    width: 62px;
+    height: 63px;
+    z-index: -1;
+    border-radius: 5px;
+    left: 90px;
+}
+
+.yellow-square2 h1::before {
+    content: '';
+    background-color: #ffe138;
+    width: 62px;
+    height: 62px;
+    z-index: -1;
+    position: absolute;
+    border-radius: 5px ;
+    left: 664px;
+    
+}
+
+.yellow-square3 h1::before {
+    content: '';
+    position: absolute;
+    background-color: #ffe138;
+    width: 62px;
+    height: 63px;
+    z-index: -1;
+    border-radius: 5px;
+    left: 87px;
+}
+
+.yellow-square4 h1::before {
+    content: '';
+    background-color: #ffe138;
+    width: 62px;
+    height: 62px;
+    z-index: -1;
+    position: absolute;
+    border-radius: 5px ;
+    left: 660px;
+}
+
+.why h1{
+    font-size: 175px;
+    line-height: 150px;
+    color: #1104ce;
+    margin-bottom: 0;
+}
+.w1 {
+    color: #1104ce;
+}
+
+.w2{
+    background-image: url('/18-parallax.jpg');
+    height: 1135px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 250px;
+    transform-origin: 5%;
+
+}
+
+.w2 h1{
+    font-size: 200px;
+}
+
+.bl {
+    background-color: #1104ce;
+    z-index: -1;
+    position: relative;
+
+}
+
+.bl1 {
+    background-color: #1104ce;
+    z-index: 1;
+}
+
+.wh, h2 {
+  color: #1104ce;
+
+}
+
+.wh1 {
+    background-color: #1104ce;
+}
+
+.blue-square ::before {
+
+    content:"";
+    background-color: #01ffed;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    z-index: -1;
+    left: 38px;
+    top:-20px;
+    border-radius: 5px;
+}
+
+.blue-square1 ::before {
+
+    content:"";
+    background-color: #ffe138;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    z-index: -1;
+    left: 73px;
+    top:-20px;
+    border-radius: 5px;
+}
+
+.last2 , p , span{
+    vertical-align: top;
+}
